@@ -94,7 +94,7 @@ function drawMonster() {
 
   // Draw monster teeth
   fill(255); // White color for the teeth
-  for (let i = -3; i <= 3; i++) {
+  for (let i = -3; i <= 1; i++) {
     triangle(x - diameter / 4 + i * 30+75, y + diameter / 4-40,
              x - diameter / 4 + i * 30 + 85, y + diameter / 4 + 30-40,
              x - diameter / 4 + i * 30 +65, y + diameter / 4 + 30-40);
